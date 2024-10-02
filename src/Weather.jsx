@@ -42,7 +42,7 @@ const Weather = () => {
     <div>
       <h1>Weather Information</h1>
       
-      {/* Search Form */}
+      /* Search Form */
       <form onSubmit={handleSearch}>
         <input
           type="text"
@@ -53,7 +53,7 @@ const Weather = () => {
         <button type="submit">Search</button>
       </form>
 
-      {/* Display weather data if available */}
+      /* Display weather data if available */
       {weatherData ? (
         <div>
           <h2>Weather in {city}</h2>
